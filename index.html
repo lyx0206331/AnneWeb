@@ -1,12 +1,362 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Anne设计师·网络品牌 | Anne个人网站</title>
     <meta name="Keywords" content="Anne设计师·网络品牌 | Anne个人网站 | 网页设计，视觉美化，品牌设计，网站制作，APP界面设计"/>
     <meta name="Description" content="Anne设计师·网络品牌 | Anne个人网站"/>
+    <link rel="icon" href="img/favicon.ico" mce_href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+    <script type="text/javascript" src="js/loader.js"></script>
+    <script type="text/javascript" src="js/gundong.js"></script>
+    <!--<script type="text/javascript" src="js/tiaozhuan.js"></script>-->
+    <script>
+        $(function () {
+            $.fullpage({
+                anchors: ['page1', 'page2', 'page3', 'page4'],
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        if (!$.support.leadingWhitespace) {
+            window.location.href = "incompatible.html"/*tpa=http://www.cj-designrs.com/incompatible.html*/;
+        }
+    </script>
 </head>
-<body>
-
+<body style=" overflow:hidden; height: 100%;">
+<!-- 导航 -->
+<div id="reg_setp">
+    <div class="meun">
+        <ul class="meun-ul">
+            <li>
+                <a href="#page1" class="back_setp">
+                    <i></i>
+                    <span><b></b>HOME</span>
+                </a>
+            </li>
+            <li>
+                <a href="#page2" class="back_setp">
+                    <i></i>
+                    <span><b></b>WORKS</span>
+                </a>
+            </li>
+            <li>
+                <a href="#page3" class="back_setp">
+                    <i></i>
+                    <span><b></b>ABOUT</span>
+                </a>
+            </li>
+            <li>
+                <a href="#page4" class="back_setp">
+                    <i></i>
+                    <span><b></b>CONTACT</span>
+                </a>
+            </li>
+            <div style=" clear:both;"></div>
+        </ul>
+        <div class="meun-logo">
+            <div class="icon-logo"></div>
+            <div class="icon-text"></div>
+        </div>
+    </div>
+    <div class="back_setp" id="back_setp" title="关闭导航"></div>
+    <div id="setp_quicklogin"></div>
+</div>
+<script type="text/javascript">
+    //导航
+    $(function () {
+        $(".reg a,.reg1 a").click(function () {
+            $("#reg_setp,#setp_quicklogin").show();
+            $("#reg_setp").animate({
+                bottom: 0
+            }, 600, "easeOutQuart")
+        });
+        $(".back_setp").click(function () {
+            "block" == $("#setp_quicklogin").css("display") && $("#reg_setp").animate({
+                bottom: "100%"
+            }, 600, "easeOutQuart", function () {
+                $("#reg_setp, #setp_quicklogin").hide()
+            })
+        });
+    });
+</script>
+<!-- 内容 -->
+<div id="superContainer" style="top:0px;">
+    <!-- 加载页 -->
+    <div class="loader"></div>
+    <div id="cj-scattered">
+        <div class="nr-loader">
+            <h1></h1>
+            <em></em>
+            <div class="ball-beat">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <!-- Anne首页 -->
+    <div id="section" class="section section1" data-anchor="page1">
+        <div class="reg"><a href="#" onclick="return false;"></a></div>
+        <div class="mouse">
+            <div class="icon_mouse"><i></i></div>
+            <p>鼠标上下滚动切换</p>
+        </div>
+        <div class="bg"></div>
+        <div class="bg111 dai"></div>
+        <div class="kuanheight">
+            <div class="cj_left">
+                <div class="cj_left1 dong2">
+                    <ul>
+                        <li>
+                            <div class="sj-1"></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cj_right">
+                <div class="cj_right1 dong3">
+                    <ul>
+                        <li>
+                            <div class="sj-2"></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cj_title dong1">
+                <div class="wb bg13"></div>
+                <div class="wb bg112"></div>
+                <div class="wb bg113"></div>
+                <div class="wb bg114"></div>
+                <div class="wb bg115"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Anne案例 -->
+    <div class="section section2" data-anchor="page2">
+        <div class="reg1"><a
+                style="background: url(img/icon.png)/*tpa=http://www.cj-designrs.com/images/icon.png*/ no-repeat -238px 0;"
+                href="#" onclick="return false;"></a></div>
+        <div class="bg" style="background:#00b38a;"></div>
+        <div class="bg17"></div>
+        <div class="bg18"></div>
+        <div class="bg19"></div>
+        <!-- 案例 --->
+        <div class="work_nr">
+            <div class="work_qh">
+                <ul class="work_qhul">
+                    <li><a href="works.html" target="_blank" class="cur">全部案例</a></li>
+                    <li><a href="works.html" target="_blank">企业网站</a></li>
+                    <li><a href="works.html" target="_blank">商城 / 电商功能站</a></li>
+                    <li><a href="works.html" target="_blank">APP / 手机网站</a></li>
+                </ul>
+                <!--<a class="more_work" href="#" title="查看更多案例">查看更多</a>-->
+            </div>
+            <div id="work_box">
+                <div id="left"></div>
+                <div id="work_conter">
+                    <ul>
+                        <li>
+                            <a href="1.html" target="_blank"><i></i></a>
+                            <em><img src="img/works_1.jpg"></em>
+                            <p>优料网 -- 你的料，优质料</p>
+                        </li>
+                        <li>
+                            <a href="2.html" target="_blank"><i></i></a>
+                            <em><img src="img/works_2.jpg"></em>
+                            <p>上海勒夫企业管理咨询有限公司</p>
+                        </li>
+                        <li>
+                            <a href="3.html" target="_blank"><i></i></a>
+                            <em><img src="img/works_3.jpg"></em>
+                            <p>上海域能机电设备有限公司</p>
+                        </li>
+                        <li>
+                            <a href="4.html" target="_blank"><i></i></a>
+                            <em><img src="img/works_4.jpg"></em>
+                            <p>使命召唤6：现代战争2（141特勤队）</p>
+                        </li>
+                        <li>
+                            <a href="5.html" target="_blank"><i></i></a>
+                            <em><img src="img/works_5.jpg"></em>
+                            <p>《战狼》电影网站</p>
+                        </li>
+                        <li>
+                            <a href="6.html" target="_blank"><i></i></a>
+                            <em><img src="img/works_6.jpg"></em>
+                            <p>E学宝 -- APP页面设计</p>
+                        </li>
+                        <li>
+                            <a href="7.html" target="_blank"><i></i></a>
+                            <em><img src="img/works_7.jpg"></em>
+                            <p>Tourist club 旅游箱包</p>
+                        </li>
+                        <li>
+                            <a href="8.html" target="_blank"><i></i></a>
+                            <em><img src="img/works_8.jpg"></em>
+                            <p>SISRFID 英内电子标签</p>
+                        </li>
+                        <li class="l-more">
+                            <b class="w-s1"></b>
+                            <b class="w-s2"></b>
+                            <b class="w-s3"></b>
+                            <b class="w-s4"></b>
+                            <a href="works.html" target="_blank"><img src="img/more.png"></a>
+                        </li>
+                    </ul>
+                    <div id="work_scroll"><span></span></div>
+                </div>
+                <div id="right"></div>
+            </div>
+        </div>
+        <div class="mouse">
+            <div class="icon_mouse"><i></i></div>
+            <p>鼠标上下滚动切换</p>
+        </div>
+    </div>
+    <!-- 关于Anne -->
+    <div class="section section3" data-anchor="page3">
+        <div class="reg1"><a
+                style="background: url(img/icon.png)/*tpa=http://www.cj-designrs.com/images/icon.png*/ no-repeat -474px 0;"
+                href="#" onclick="return false;"></a></div>
+        <div class="bg" style="background:#04b100;"></div>
+        <div class="bg20"></div>
+        <div class="bg21"></div>
+        <div class="bg22"></div>
+        <!-- 关于内容 -->
+        <div class="about_nr">
+            <div class="bg23">
+                <div class="about_ren"></div>
+            </div>
+            <div class="bgs1">
+                <div class="sikao"></div>
+            </div>
+            <div class="bgs2">
+                <div class="shijue"></div>
+            </div>
+            <div class="bgc3">
+                <div class="chuanyi"></div>
+            </div>
+            <div class="about_js">
+                <ul>
+                    <li>姓名：刘毅(Anne)</li>
+                    <li>网名：Anne</li>
+                    <li>性别：女</li>
+                    <li>职业：网页设计师</li>
+                    <li>爱好：音乐、电影、游泳</li>
+                    <li>签名：叫醒你的是梦想不是闹钟</li>
+                </ul>
+            </div>
+            <div class="about_skill">
+                <b>Anne的技能</b>
+                <ul>
+                    <li>
+                        <i class="photoshop"></i>
+                        <em>Photoshop</em>
+                    </li>
+                    <li>
+                        <i class="html"></i>
+                        <em>Html / Css</em>
+                    </li>
+                    <li>
+                        <i class="flash"></i>
+                        <em>Flash</em>
+                    </li>
+                    <li>
+                        <i class="axure"></i>
+                        <em>Axure</em>
+                    </li>
+                </ul>
+            </div>
+            <div class="about_text">
+                关于设计，每一次设计都是一种挑战，每个项目都是一次提高的机会。需要认真思考而不是马上找素材，这样既不能提高思考能力也不会有更好的发展空间，长此以往对设计工作会失去信心，对设计也会变得乏味。所以要保持头脑清醒坚持原创，静下心思考客户的真正想法。至于灵感的来源，源于对设计认真思考和努力创新的态度！
+            </div>
+        </div>
+    </div>
+    <!-- 联系Anne -->
+    <div class="section section4" data-anchor="page4">
+        <div class="reg1"><a
+                style="background: url(img/icon.png)/*tpa=http://www.cj-designrs.com/images/icon.png*/ no-repeat -710px 0;"
+                href="#" onclick="return false;"></a></div>
+        <div class="bg" style="background:#07a0f0;"></div>
+        <div class="bg24"></div>
+        <div class="bg25"></div>
+        <div class="bg26"></div>
+        <div class="contact_nr">
+            <div class="contact_way">
+                <ul>
+                    <li class="con_lx">
+                        <i></i>
+                        <div class="c">
+                            <span>联系人：</span>
+                            <em>戴俊锋（David）</em>
+                        </div>
+                    </li>
+                    <li class="con_tel">
+                        <i></i>
+                        <div class="c">
+                            <span>手机：</span>
+                            <em>15000472394</em>
+                        </div>
+                    </li>
+                    <li class="con_qq">
+                        <i></i>
+                        <div class="c">
+                            <span>QQ：</span>
+                            <em>329529845</em>
+                        </div>
+                    </li>
+                    <li class="con_mail">
+                        <i></i>
+                        <div class="c">
+                            <span>E-mail：</span>
+                            <em>David_cj@126.com</em>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="contact_logo"></div>
+        </div>
+    </div>
+</div>
+<div class="cj-wrapper">
+    <canvas id="cj-loader" width="400" height="400"></canvas>
+</div>
+<!-- 底部 -->
+<div class="bottomnr">
+    <p>COPYRIGHT © 2015 Anne设计师·网络品牌 沪ICP备12010388号</p>
+    <iframe src="audio.html" width="18" height="20" frameborder="0"></iframe>
+    <ul class="bottom-ul">
+        <li>联系Anne</li>
+        <li title="手机联系"><i class="i01"></i>13476115920</li>
+        <li title="QQ联系"><i class="i02"></i><a href="#">359473771</a></li>
+        <li title="发送邮箱"><i class="i03"></i>359473771@qq.com</li>
+        <li></li>
+    </ul>
+</div>
+<script>
+    $(function () {
+        $('.section1').on('mousemove', function (e) {
+            var offsetX = e.clientX / window.innerWidth - 0.5,
+                    offsetY = e.clientY / window.innerHeight - 0.5;
+            $('.section1 .dong1').css('left', -10 - 80 * offsetX).css('top', 10 - 40 * offsetY);
+            $('.section1 .dong2').css('left', -10 + 20 * offsetX).css('top', 10 + 20 * offsetY);
+            $('.section1 .dong3').css('right', -10 + 20 * offsetX).css('top', 10 + 20 * offsetY);
+        });
+        $('.section3').on('mousemove', function (e) {
+            var offsetX = e.clientX / window.innerWidth - 0.5,
+                    offsetY = e.clientY / window.innerHeight - 0.5;
+            $('.section3 .about_ren').css('left', -10 - 40 * offsetX).css('top', -10 - 40 * offsetY);
+            $('.section3 .sikao').css('left', -10 + 40 * offsetX).css('top', -10 + 40 * offsetY);
+            $('.section3 .shijue').css('left', -10 + 40 * offsetX).css('top', -10 + 40 * offsetY);
+            $('.section3 .chuanyi').css('left', -10 + 40 * offsetX).css('top', -10 + 40 * offsetY);
+        });
+    })
+</script>
+<script src="stat.php-id=4039811&web_id=4039811&show=pic.js" language="JavaScript"></script>
 </body>
 </html>
