@@ -1876,7 +1876,7 @@ a:hover {
     display: block;
     width: 46px;
     height: 44px;
-    background-image: url(../img/menu_icon.png) /*tpa=http://www.cj-designrs.com/images/meunicon.png*/;
+    background-image: url(../img_Anne/menu_icon.png) /*tpa=http://www.cj-designrs.com/images/meunicon.png*/;
     background-repeat: no-repeat;
     -webkit-transition: all 500ms ease;
     -moz-transition: all 500ms ease;
@@ -1931,7 +1931,7 @@ a:hover {
     display: block;
     width: 104px;
     height: 30px;
-    background-image: url(../img/menu_icon.png) /*tpa=http://www.cj-designrs.com/images/meunicon.png*/;
+    background-image: url(../img_Anne/menu_icon.png) /*tpa=http://www.cj-designrs.com/images/meunicon.png*/;
     background-repeat: no-repeat;
     margin-left: 16px;
 }
