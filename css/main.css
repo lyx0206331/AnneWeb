@@ -258,7 +258,7 @@ a:hover {
 }
 
 .section .bg {
-    background: url(../img/bj_01.jpg) /*tpa=http://www.cj-designrs.com/images/bj_01.jpg*/ repeat;
+    background: url(../img2/bj_01.png) /*tpa=http://www.cj-designrs.com/images/bj_01.jpg*/ repeat;
     position: absolute;
     left: 0;
     top: 0;
@@ -270,7 +270,7 @@ a:hover {
 @media screen and (min-width: 1920px) {
     /*如果你的浏览器屏幕大于880px 就实现下面的样式*/
     .bg111 {
-        background-image: url(../img/bottomtu_02.jpg) /*tpa=http://www.cj-designrs.com/images/bottomtu_02.jpg*/;
+        background-image: url(../img2/bottomtu_02.png) /*tpa=http://www.cj-designrs.com/images/bottomtu_02.jpg*/;
         background-repeat: no-repeat;
         background-position: center bottom;
         background-size: 100% 619px;
@@ -288,7 +288,7 @@ a:hover {
     }
 
     .active .bg111 {
-        background-image: url(../img/bottomtu_02.jpg) /*tpa=http://www.cj-designrs.com/images/bottomtu_02.jpg*/;
+        background-image: url(../img2/bottomtu_02.png) /*tpa=http://www.cj-designrs.com/images/bottomtu_02.jpg*/;
         background-repeat: no-repeat;
         background-position: center bottom;
         background-size: 100% 619px;
@@ -308,7 +308,7 @@ a:hover {
 @media screen and (max-width: 1920px) {
     /*如果你的浏览器屏幕大于880px 就实现下面的样式*/
     .bg111 {
-        background-image: url(../img/bottomtu_02.jpg) /*tpa=http://www.cj-designrs.com/images/bottomtu_02.jpg*/;
+        background-image: url(../img2/bottomtu_02.png) /*tpa=http://www.cj-designrs.com/images/bottomtu_02.jpg*/;
         background-repeat: no-repeat;
         background-position: center bottom;
         background-size: 1920px 619px;
@@ -326,7 +326,7 @@ a:hover {
     }
 
     .active .bg111 {
-        background-image: url(../img/bottomtu_02.jpg) /*tpa=http://www.cj-designrs.com/images/bottomtu_02.jpg*/;
+        background-image: url(../img2/bottomtu_02.png) /*tpa=http://www.cj-designrs.com/images/bottomtu_02.jpg*/;
         background-repeat: no-repeat;
         background-position: center bottom;
         background-size: 1920px 619px;
@@ -581,7 +581,7 @@ a:hover {
 .sj-1, .sj-2 {
     width: 79px;
     height: 520px;
-    background-image: url(../img/titlie.png) /*tpa=http://www.cj-designrs.com/images/titlie.png*/;
+    background-image: url(../img2/titlie.png) /*tpa=http://www.cj-designrs.com/images/titlie.png*/;
     background-repeat: no-repeat;
 }
 
@@ -602,7 +602,7 @@ a:hover {
     margin: -270px 0 0 -903px;
     height: 114px;
     z-index: 9;
-    background: url(../img_Anne/works_title.png) /*tpa=http://www.cj-designrs.com/images/works_title.png*/ no-repeat;
+    background: url(../img2/works_title.png) /*tpa=http://www.cj-designrs.com/images/works_title.png*/ no-repeat;
     opacity: 0;
     transition: all 1.7s;
     bottom: 90px \0;
@@ -643,14 +643,14 @@ a:hover {
     margin: -235px 0 0 -100px;
     height: 47px;
     z-index: 9;
-    background: url(../img_Anne/works_title.png) /*tpa=http://www.cj-designrs.com/images/works_title.png*/ no-repeat -191px -116px;
+    background: url(../img2/works_title.png) /*tpa=http://www.cj-designrs.com/images/works_title.png*/ no-repeat -191px -116px;
     opacity: 0;
     transition: all 2.2s;
     bottom: 90px \0;
 }
 
 .active .bg19 {
-    background: url(../img_Anne/works_title.png) /*tpa=http://www.cj-designrs.com/images/works_title.png*/ no-repeat -191px -116px;
+    background: url(../img2/works_title.png) /*tpa=http://www.cj-designrs.com/images/works_title.png*/ no-repeat -191px -116px;
     top: 50%;
     margin: -235px 0 0 -100px;
     opacity: 1;
@@ -710,7 +710,7 @@ a:hover {
     line-height: 15px;
     line-height: 15px;
     margin: 120px 15% 0 0;
-    background: url(../img/icon.png) /*tpa=http://www.cj-designrs.com/images/icon.png*/ no-repeat -905px -135px;
+    background: url(../img2/icon.png) /*tpa=http://www.cj-designrs.com/images/icon.png*/ no-repeat -905px -135px;
     font-size: 14px;
     font-family: "Microsoft Yahei";
     padding: 0 0 0 34px;
@@ -719,7 +719,7 @@ a:hover {
 }
 
 .more_work:hover {
-    background: url(../img/icon.png) /*tpa=http://www.cj-designrs.com/images/icon.png*/ no-repeat -905px -166px;
+    background: url(../img2/icon.png) /*tpa=http://www.cj-designrs.com/images/icon.png*/ no-repeat -905px -166px;
     color: #fff;
 }
 
@@ -867,7 +867,7 @@ a:hover {
     display: block;
     width: 74px;
     height: 74px;
-    background: url(../img/icon.png) /*tpa=http://www.cj-designrs.com/images/icon.png*/ no-repeat -46px -150px;
+    background: url(../img2/icon.png) /*tpa=http://www.cj-designrs.com/images/icon.png*/ no-repeat -46px -150px;
     margin: 120px 0 0 95px;
     opacity: 0.3;
     -moz-transform: rotateY(-360deg) translateY(130px) scale(0.3, 0.3);
@@ -1055,7 +1055,7 @@ a:hover {
     z-index: 9;
     margin: -670px 0 0 -280px;
     height: 112px;
-    background: url(../img_Anne/about_title.png) /*tpa=http://www.cj-designrs.com/images/about_title.png*/ no-repeat;
+    background: url(../img2/about_title.png) /*tpa=http://www.cj-designrs.com/images/about_title.png*/ no-repeat;
     opacity: 0;
     transition: all 1s;
     bottom: 90px \0;
@@ -1095,14 +1095,14 @@ a:hover {
     z-index: 9;
     margin: -237px 0 0 -104px;
     height: 47px;
-    background: url(../img_Anne/about_title.png) /*tpa=http://www.cj-designrs.com/images/about_title.png*/ no-repeat -191px -116px;
+    background: url(../img2/about_title.png) /*tpa=http://www.cj-designrs.com/images/about_title.png*/ no-repeat -191px -116px;
     opacity: 0;
     transition: all 1.6s;
     bottom: 90px \0;
 }
 
 .active .bg22 {
-    background: url(../img_Anne/about_title.png) /*tpa=http://www.cj-designrs.com/images/about_title.png*/ no-repeat -191px -116px;
+    background: url(../img2/about_title.png) /*tpa=http://www.cj-designrs.com/images/about_title.png*/ no-repeat -191px -116px;
     top: 50%;
     margin: -237px 0 0 -104px;
     opacity: 1;
@@ -1139,7 +1139,7 @@ a:hover {
     position: relative;
     width: 366px;
     height: 441px;
-    background: url(../img/about_ren.jpg) /*tpa=http://www.cj-designrs.com/images/about_ren.jpg*/ no-repeat;
+    background: url(../img2/about_ren.jpg) /*tpa=http://www.cj-designrs.com/images/about_ren.jpg*/ no-repeat;
 }
 
 .active .bg23 {
@@ -1462,7 +1462,7 @@ a:hover {
     z-index: 9;
     margin: -670px 0 0 -406px;
     height: 114px;
-    background: url(../img_Anne/contact_title.png) /*tpa=http://www.cj-designrs.com/images/contact_title.png*/ no-repeat;
+    background: url(../img2/contact_title.png) /*tpa=http://www.cj-designrs.com/images/contact_title.png*/ no-repeat;
     opacity: 0;
     transition: all 1s;
     bottom: 90px \0;
@@ -1502,7 +1502,7 @@ a:hover {
     z-index: 9;
     margin: -235px 0 0 -100px;
     height: 47px;
-    background: url(../img_Anne/contact_title.png) /*tpa=http://www.cj-designrs.com/images/contact_title.png*/ no-repeat -304px -116px;
+    background: url(../img2/contact_title.png) /*tpa=http://www.cj-designrs.com/images/contact_title.png*/ no-repeat -304px -116px;
     opacity: 0;
     transition: all 1.6s;
     bottom: 90px \0;
@@ -1727,7 +1727,7 @@ a:hover {
 }
 
 .reg a {
-    background: url(../img/icon.png) /*tpa=http://www.cj-designrs.com/images/icon.png*/ no-repeat 0 0;
+    background: url(../img2/icon.png) /*tpa=http://www.cj-designrs.com/images/icon.png*/ no-repeat 0 0;
     display: block;
     width: 215px;
     height: 91px;
@@ -1766,7 +1766,7 @@ a:hover {
 }
 
 .reg1 a {
-    background: url(../img/icon.png) /*tpa=http://www.cj-designrs.com/images/icon.png*/ no-repeat 0 0;
+    background: url(../img2/icon.png) /*tpa=http://www.cj-designrs.com/images/icon.png*/ no-repeat 0 0;
     display: block;
     width: 215px;
     height: 91px;
@@ -1805,7 +1805,7 @@ a:hover {
     left: 50%;
     border-radius: 50px;
     border: 1px solid #0ecdae;
-    background: url(../img/icon.png) /*tpa=http://www.cj-designrs.com/images/icon.png*/ no-repeat -48px -98px;
+    background: url(../img2/icon.png) /*tpa=http://www.cj-designrs.com/images/icon.png*/ no-repeat -48px -98px;
     transition: transform 1s;
     -webkit-transition: all transform 1s;
     -moz-transition: all transform 1s;
@@ -1815,7 +1815,7 @@ a:hover {
 
 #back_setp:hover {
     display: block;
-    background: url(../img/icon.png) /*tpa=http://www.cj-designrs.com/images/icon.png*/ no-repeat -48px -98px;
+    background: url(../img2/icon.png) /*tpa=http://www.cj-designrs.com/images/icon.png*/ no-repeat -48px -98px;
     border: 1px solid #0ecdae;
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
@@ -1876,7 +1876,7 @@ a:hover {
     display: block;
     width: 46px;
     height: 44px;
-    background-image: url(../img_Anne/menu_icon.png) /*tpa=http://www.cj-designrs.com/images/meunicon.png*/;
+    background-image: url(../img2/menu_icon.png) /*tpa=http://www.cj-designrs.com/images/meunicon.png*/;
     background-repeat: no-repeat;
     -webkit-transition: all 500ms ease;
     -moz-transition: all 500ms ease;
@@ -1931,7 +1931,7 @@ a:hover {
     display: block;
     width: 104px;
     height: 30px;
-    background-image: url(../img_Anne/menu_icon.png) /*tpa=http://www.cj-designrs.com/images/meunicon.png*/;
+    background-image: url(../img2/menu_icon.png) /*tpa=http://www.cj-designrs.com/images/meunicon.png*/;
     background-repeat: no-repeat;
     margin-left: 16px;
 }
@@ -1973,7 +1973,7 @@ a:hover {
 .meun-logo .icon-text {
     width: 259px;
     height: 26px;
-    background: url(../img/icon.png) /*tpa=http://www.cj-designrs.com/images/icon.png*/ no-repeat -399px -192px;
+    background: url(../img2/icon.png) /*tpa=http://www.cj-designrs.com/images/icon.png*/ no-repeat -399px -192px;
     margin: 0 auto;
 }
 
@@ -2005,7 +2005,7 @@ a:hover {
     height: 32px;
     position: relative;
     margin: 0 auto 4px auto;
-    background: url(../img/icon.png) /*tpa=http://www.cj-designrs.com/images/icon.png*/ no-repeat 0 -161px;
+    background: url(../img2/icon.png) /*tpa=http://www.cj-designrs.com/images/icon.png*/ no-repeat 0 -161px;
 }
 
 .icon_mouse i {
@@ -2013,7 +2013,7 @@ a:hover {
     width: 2px;
     height: 6px;
     position: absolute;
-    background: url(../img/icon.png) /*tpa=http://www.cj-designrs.com/images/icon.png*/ no-repeat -9px -149px;
+    background: url(../img2/icon.png) /*tpa=http://www.cj-designrs.com/images/icon.png*/ no-repeat -9px -149px;
     top: 7px;
     left: 10px;
 }
@@ -2065,7 +2065,7 @@ a:hover {
     display: block;
     float: left;
     height: 14px;
-    background-image: url(../img/icon.png) /*tpa=http://www.cj-designrs.com/images/icon.png*/;
+    background-image: url(../img2/icon.png) /*tpa=http://www.cj-designrs.com/images/icon.png*/;
 }
 
 .bottom-ul li i.i01 {
