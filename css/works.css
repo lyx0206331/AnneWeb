@@ -768,9 +768,8 @@ a:hover {
     width: 99px;
     height: 24px;
     background: #007157;
-    margin-top: 84px;
+    margin: 114px auto;
     overflow: hidden;
-    float: left;
 }
 
 .abottombox_leftback a {
