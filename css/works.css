@@ -391,7 +391,7 @@ a:hover {
 }
 
 .dtopbox_right {
-    width: 69px;
+    width: 79px;
     height: 24px;
     background: #007157;
     margin-top: 24px;
@@ -418,7 +418,7 @@ a:hover {
 }
 
 .dtopbox_right a span {
-    width: 57px;
+    width: 64px;
     height: 24px;
     overflow: hidden;
     display: block;
@@ -445,7 +445,7 @@ a:hover {
     display: none;
     position: absolute;
     z-index: 9999;
-    margin-left: 65px;
+    margin-left: 75px;
 }
 
 .bottom-ul li {
