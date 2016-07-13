@@ -82,7 +82,7 @@ a:hover {
     margin: 0 auto;
     width: 258px;
     height: 25px;
-    background: url(../img/icon.png) /*tpa=http://www.cj-designrs.com/images/icon.png*/ no-repeat -401px -192px;
+    background: url(../img2/icon.png) /*tpa=http://www.cj-designrs.com/images/icon.png*/ no-repeat -401px -192px;
     opacity: 1;
 }
 
@@ -898,7 +898,7 @@ a:hover {
     bottom: 8px;
     cursor: pointer;
     position: absolute;
-    background: url(../img/dian.jpg) /*tpa=http://www.cj-designrs.com/images/dian.jpg*/ repeat-x left center;
+    background: url(../img2/dian.jpg) /*tpa=http://www.cj-designrs.com/images/dian.jpg*/ repeat-x left center;
 }
 
 #work_scroll span {
@@ -956,7 +956,7 @@ a:hover {
     display: block;
     width: 6px;
     height: 6px;
-    background-image: url(../img/morejt.png) /*tpa=http://www.cj-designrs.com/images/morejt.png*/;
+    background-image: url(../img2/morejt.png) /*tpa=http://www.cj-designrs.com/images/morejt.png*/;
     background-repeat: no-repeat;
     position: absolute;
     z-index: 9999;
@@ -1550,7 +1550,7 @@ a:hover {
     width: 52px;
     height: 52px;
     float: left;
-    background-image: url(../img/contact_icon.jpg) /*tpa=http://www.cj-designrs.com/images/contact_icon.jpg*/;
+    background-image: url(../img2/contact_icon.jpg) /*tpa=http://www.cj-designrs.com/images/contact_icon.jpg*/;
     background-repeat: no-repeat;
 }
 
@@ -1967,7 +1967,7 @@ a:hover {
 .meun-logo .icon-logo {
     width: 154px;
     height: 157px;
-    background: url(../img/icon.png) /*tpa=http://www.cj-designrs.com/images/icon.png*/ no-repeat -137px -125px;
+    background: url(../img2/icon.png) /*tpa=http://www.cj-designrs.com/images/icon.png*/ no-repeat -137px -125px;
     margin: 0 auto 16px auto;
 }
 
@@ -2104,14 +2104,14 @@ a:hover {
 }
 
 #c_music .bofang {
-    background: url(../img/zhanting.gif) /*tpa=http://www.cj-designrs.com/images/zhanting.gif*/ no-repeat;
+    background: url(../img2/zhanting.gif) /*tpa=http://www.cj-designrs.com/images/zhanting.gif*/ no-repeat;
     width: 18px;
     height: 12px;
     display: block;
 }
 
 #c_music .zanting {
-    background: url(../img/davidmis.gif) /*tpa=http://www.cj-designrs.com/images/davidmis.gif*/ no-repeat;
+    background: url(../img2/davidmis.gif) /*tpa=http://www.cj-designrs.com/images/davidmis.gif*/ no-repeat;
     width: 18px;
     height: 12px;
     display: block;

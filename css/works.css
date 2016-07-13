@@ -235,7 +235,7 @@ a:hover {
     display: block;
     width: 74px;
     height: 74px;
-    background: url(../img/icon.png) /*tpa=http://www.cj-designrs.com/images/icon.png*/ no-repeat -46px -150px;
+    background: url(../img2/icon.png) /*tpa=http://www.cj-designrs.com/images/icon.png*/ no-repeat -46px -150px;
     margin: 120px 0 0 95px;
     opacity: 0.3;
     -moz-transform: rotateY(-360deg) translateY(130px) scale(0.3, 0.3);
@@ -461,7 +461,7 @@ a:hover {
     display: block;
     float: left;
     height: 14px;
-    background-image: url(../img/icon.png) /*tpa=http://www.cj-designrs.com/images/icon.png*/;
+    background-image: url(../img2/icon.png) /*tpa=http://www.cj-designrs.com/images/icon.png*/;
 }
 
 .bottom-ul li b.i01 {
@@ -484,7 +484,7 @@ a:hover {
     display: block;
     float: left;
     height: 14px;
-    background-image: url(../img/icon.png) /*tpa=http://www.cj-designrs.com/images/icon.png*/;
+    background-image: url(../img2/icon.png) /*tpa=http://www.cj-designrs.com/images/icon.png*/;
 }
 
 .bottom-ul li i.i01 {
@@ -523,7 +523,7 @@ a:hover {
     margin-bottom: 15px;
     text-align: center;
     min-height: 30px;
-    background: url(../img/pix.gif) /*tpa=http://www.cj-designrs.com/images/images/pix.gif*/ no-repeat center;
+    background: url(../img2/pix.gif) /*tpa=http://www.cj-designrs.com/images/images/pix.gif*/ no-repeat center;
 }
 
 .wcld {
