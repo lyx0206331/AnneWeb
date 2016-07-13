@@ -1126,6 +1126,7 @@ a:hover {
     height: 441px;
     top: 3px;
     left: 14px;
+    margin: -50px 0 0 -40px;
     text-indent: -9999px;
 
     opacity: 0;
@@ -1137,8 +1138,8 @@ a:hover {
 
 .bg23 .about_ren {
     position: relative;
-    width: 366px;
-    height: 441px;
+    width: 584px;
+    height: 480px;
     background: url(../img2/about_ren.png) /*tpa=http://www.cj-designrs.com/images/about_ren.jpg*/ no-repeat;
 }
 
