@@ -744,7 +744,7 @@ a:hover {
 
 .abottom {
     width: 100%;
-    height: 290px;
+    height: 100px;
     background: #007157;
     margin-top: 15px;
     overflow: hidden;
@@ -768,7 +768,7 @@ a:hover {
     width: 99px;
     height: 24px;
     background: #007157;
-    margin: 114px auto;
+    margin: 34px auto;
     overflow: hidden;
 }
 
