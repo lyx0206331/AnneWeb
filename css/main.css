@@ -447,6 +447,14 @@ a:hover {
     -ms-transition: all 1s;
 }
 
+.logo_l {
+
+}
+
+.logo_y {
+
+}
+
 .active .bg13 {
     top: 0;
     margin: 0px 0 0 -237px;
@@ -1358,7 +1366,7 @@ a:hover {
     -o-transition: all 1.5s;
 }
 
-.flash {
+.illustrator {
     display: block;
     position: absolute;
     width: 0px;
@@ -1409,7 +1417,7 @@ a:hover {
     -o-transition-delay: 0.7s;
 }
 
-.active .flash {
+.active .illustrator {
     display: block;
     width: 257px;
     -webkit-transition-delay: 0.7s;
