@@ -2173,15 +2173,15 @@ a:hover {
     cursor: pointer;
 }
 
-#c_music .bofang {
-    background: url(../img2/zhanting.gif) /*tpa=http://www.cj-designrs.com/images/zhanting.gif*/ no-repeat;
+#c_music .play {
+    background: url(../img2/pause.gif) /*tpa=http://www.cj-designrs.com/images/zhanting.gif*/ no-repeat;
     width: 18px;
     height: 12px;
     display: block;
 }
 
-#c_music .zanting {
-    background: url(../img2/davidmis.gif) /*tpa=http://www.cj-designrs.com/images/davidmis.gif*/ no-repeat;
+#c_music .pause {
+    background: url(../img2/play.gif) /*tpa=http://www.cj-designrs.com/images/davidmis.gif*/ no-repeat;
     width: 18px;
     height: 12px;
     display: block;

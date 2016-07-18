@@ -13,8 +13,8 @@
 </head>
 <body style=" background:none;">
 <!-- 音乐 -->
-<audio src="canjian.mp3" controls loop autoplay id="music"></audio>
-<div id="c_music"><span class="zanting" onClick="zanting()" title="音乐暂停"></span></div>
+<audio src="assets/bg_music.mp3" controls loop autoplay id="music"></audio>
+<div id="c_music"><span class="pause" onClick="pause()" title="音乐暂停"></span></div>
 <div id="allCity"></div>
 <script>
     $(function () {
@@ -22,21 +22,21 @@
         $("#c_music").click(function () {
             if ($('#allCity').css('display') == "block") {
                 $("#allCity").hide();
-                $('#c_music').html('<span class="bofang" onclick="bofang()" title="音乐播放"></span>');
+                $('#c_music').html('<span class="play" onclick="play()" title="音乐播放"></span>');
             } else {
                 $("#allCity").show();
-                $('#c_music').html('<span class="zanting" onclick="zanting()" title="音乐暂停"></span>');
+                $('#c_music').html('<span class="pause" onclick="pause()" title="音乐暂停"></span>');
             }
         });
     });
 </script>
 <script language="javascript">
     var music = document.getElementById("music");
-    function bofang() {
+    function play() {
         //播放按钮
         music.play();
     }
-    function zanting() {
+    function pause() {
         //暂停按钮
         music.pause();
     }

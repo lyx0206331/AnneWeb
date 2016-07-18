@@ -1,7 +1,7 @@
 @charset "utf-8";
 body, button, input, select, textarea {
     font: 12px/1.8 "微软雅黑", verdana;
-    background: #00b38a;
+    background: #07182a;
     font-size: 12px;
     line-height: 24px;
 }
@@ -75,7 +75,7 @@ a:hover {
     width: 237px;
     height: 69px;
     margin: 0 auto 20px auto;
-    background: #00b38a url(../img2/works_title.png) /*tpa=http://www.cj-designrs.com/images/works_title.png*/ no-repeat -172px -107px;
+    background: #07182a url(../img2/works_title.png) /*tpa=http://www.cj-designrs.com/images/works_title.png*/ no-repeat -172px -107px;
 }
 
 /** 菜单 **/
@@ -87,7 +87,7 @@ a:hover {
 
 .dh {
     width: 100%;
-    background: #00b38a;
+    background: #07182a;
     position: absolute;
     z-index: 998;
     top: 170px;
@@ -97,7 +97,7 @@ a:hover {
 
 .hover {
     top: 0;
-    background: #00b38a;
+    background: #07182a;
     position: fixed;
     width: 100%;
     height: 0px;
