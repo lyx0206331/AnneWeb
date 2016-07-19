@@ -67,7 +67,7 @@ a:hover {
     height: 90px;
     padding: 20px 0 0 0;
     margin: 33px auto 0 auto;
-    background: url(../img2/works_title.png) /*tpa=http://www.cj-designrs.com/images/works_title.png*/ no-repeat;
+    background: url(../img2/works_title.png) no-repeat;
 }
 
 .works-title i {
@@ -75,7 +75,7 @@ a:hover {
     width: 237px;
     height: 69px;
     margin: 0 auto 20px auto;
-    background: #07182a url(../img2/works_title.png) /*tpa=http://www.cj-designrs.com/images/works_title.png*/ no-repeat -172px -107px;
+    background: #07182a url(../img2/works_title.png) no-repeat -172px -107px;
 }
 
 /** 菜单 **/
@@ -235,7 +235,7 @@ a:hover {
     display: block;
     width: 74px;
     height: 74px;
-    background: url(../img2/icon.png) /*tpa=http://www.cj-designrs.com/images/icon.png*/ no-repeat -46px -150px;
+    background: url(../img2/icon.png) no-repeat -46px -150px;
     margin: 120px 0 0 95px;
     opacity: 0.3;
     -moz-transform: rotateY(-360deg) translateY(130px) scale(0.3, 0.3);
@@ -325,7 +325,7 @@ a:hover {
     width: 504px;
     height: 73px;
     margin: 0 auto;
-    background: url(../img2/d_02.jpg) /*tpa=http://www.cj-designrs.com/images/images/d_02.jpg*/ repeat-x;
+    background: url(../img2/d_02.jpg) repeat-x;
     overflow: hidden;
 }
 
@@ -350,7 +350,7 @@ a:hover {
     width: 7px;
     height: 24px;
     overflow: hidden;
-    background: url(../img2/d.png) /*tpa=http://www.cj-designrs.com/images/images/d.png*/ no-repeat 0px -56px;
+    background: url(../img2/d.png) no-repeat 0px -56px;
     display: block;
     margin: 7px 3px 0 0;
     float: left;
@@ -367,7 +367,7 @@ a:hover {
 .dtopbox_left a:hover i {
     width: 7px;
     height: 24px;
-    background: url(../img2/d.png) /*tpa=http://www.cj-designrs.com/images/images/d.png*/ no-repeat -15px -56px;
+    background: url(../img2/d.png) no-repeat -15px -56px;
     display: block;
 }
 
@@ -386,7 +386,7 @@ a:hover {
 .dtopbox_logo1 {
     width: 52px;
     height: 55px;
-    background: url(../img2/d.png) /*tpa=http://www.cj-designrs.com/images/images/d.png*/ no-repeat 0px 0px;
+    background: url(../img2/d.png) no-repeat 0px 0px;
     margin: 0 13px 0 11px;
 }
 
@@ -411,7 +411,7 @@ a:hover {
     width: 7px;
     height: 24px;
     overflow: hidden;
-    background: url(../img2/d.png) /*tpa=http://www.cj-designrs.com/images/images/d.png*/ no-repeat -6px -56px;
+    background: url(../img2/d.png) no-repeat -6px -56px;
     display: block;
     margin: 7px 0 0 2px;
     float: right;
@@ -428,7 +428,7 @@ a:hover {
 .dtopbox_right a:hover i {
     width: 7px;
     height: 24px;
-    background: url(../img2/d.png) /*tpa=http://www.cj-designrs.com/images/images/d.png*/ no-repeat -21px -56px;
+    background: url(../img2/d.png) no-repeat -21px -56px;
     display: block;
 }
 
@@ -461,7 +461,7 @@ a:hover {
     display: block;
     float: left;
     height: 14px;
-    background-image: url(../img2/icon.png) /*tpa=http://www.cj-designrs.com/images/icon.png*/;
+    background-image: url(../img2/icon.png);
 }
 
 .bottom-ul li b.i01 {
@@ -484,7 +484,7 @@ a:hover {
     display: block;
     float: left;
     height: 14px;
-    background-image: url(../img2/icon.png) /*tpa=http://www.cj-designrs.com/images/icon.png*/;
+    background-image: url(../img2/icon.png);
 }
 
 .bottom-ul li i.i01 {
@@ -523,7 +523,7 @@ a:hover {
     margin-bottom: 15px;
     text-align: center;
     min-height: 30px;
-    background: url(../img2/pix.gif) /*tpa=http://www.cj-designrs.com/images/images/pix.gif*/ no-repeat center;
+    background: url(../img2/pix.gif) no-repeat center;
 }
 
 .wcld {
@@ -579,7 +579,7 @@ a:hover {
 .allxf_top {
     width: 79px;
     height: 80px;
-    background: url(../img2/d.png) /*tpa=http://www.cj-designrs.com/images/images/d.png*/ no-repeat -52px 0px;
+    background: url(../img2/d.png) no-repeat -52px 0px;
 }
 
 .allxf_gl {
@@ -609,7 +609,7 @@ a:hover {
     width: 14px;
     height: 27px;
     margin: 11px 0 0 12px;
-    background: url(../img2/d.png) /*tpa=http://www.cj-designrs.com/images/images/d.png*/ no-repeat -16px -82px;
+    background: url(../img2/d.png) no-repeat -16px -82px;
     display: block;
     position: absolute;
     -webkit-transition: all 0.2s ease-in-out;
@@ -625,7 +625,7 @@ a:hover {
 }
 
 .allxf_glnks a:hover i {
-    background: url(../img2/d.png) /*tpa=http://www.cj-designrs.com/images/images/d.png*/ no-repeat -1px -82px;
+    background: url(../img2/d.png) no-repeat -1px -82px;
 }
 
 .allxf_glnks1 {
@@ -646,7 +646,7 @@ a:hover {
     width: 14px;
     height: 27px;
     margin: 11px 0 0 12px;
-    background: url(../img2/d.png) /*tpa=http://www.cj-designrs.com/images/images/d.png*/ no-repeat -31px -82px;
+    background: url(../img2/d.png) no-repeat -31px -82px;
     display: block;
     position: absolute;
     -webkit-transition: all 0.2s ease-in-out;
@@ -661,7 +661,7 @@ a:hover {
 }
 
 .allxf_glnks1 a:hover i {
-    background: url(../img2/d.png) /*tpa=http://www.cj-designrs.com/images/images/d.png*/ no-repeat -46px -82px;
+    background: url(../img2/d.png) no-repeat -46px -82px;
 }
 
 .allxf_glnks2 {
@@ -682,7 +682,7 @@ a:hover {
     width: 22px;
     height: 15px;
     margin: 15px 0 0 8px;
-    background: url(../img2/d.png) /*tpa=http://www.cj-designrs.com/images/images/d.png*/ no-repeat -2px -111px;
+    background: url(../img2/d.png) no-repeat -2px -111px;
     display: block;
     position: absolute;
     -webkit-transition: all 0.2s ease-in-out;
@@ -697,7 +697,7 @@ a:hover {
 }
 
 .allxf_glnks2 a:hover i {
-    background: url(../img2/d.png) /*tpa=http://www.cj-designrs.com/images/images/d.png*/ no-repeat -25px -111px;
+    background: url(../img2/d.png) no-repeat -25px -111px;
 }
 
 .allxf_glnks3 {
@@ -717,7 +717,7 @@ a:hover {
     width: 19px;
     height: 19px;
     margin: 12px 0 0 8px;
-    background: url(../img2/d.png) /*tpa=http://www.cj-designrs.com/images/images/d.png*/ no-repeat 0px -125px;
+    background: url(../img2/d.png) no-repeat 0px -125px;
     display: block;
     position: absolute;
     -webkit-transition: all 0.2s ease-in-out;
@@ -732,13 +732,13 @@ a:hover {
 }
 
 .allxf_glnks3 a:hover i {
-    background: url(../img2/d.png) /*tpa=http://www.cj-designrs.com/images/images/d.png*/ no-repeat 0px -145px;
+    background: url(../img2/d.png) no-repeat 0px -145px;
 }
 
 .allxf_bo {
     width: 39px;
     height: 20px;
-    background: url(../img2/d.png) /*tpa=http://www.cj-designrs.com/images/images/d.png*/ no-repeat -91px -82px;
+    background: url(../img2/d.png) no-repeat -91px -82px;
     margin-left: 21px;
 }
 
@@ -759,7 +759,7 @@ a:hover {
 .abottombox_left {
     width: 500px;
     height: 175px;
-    background: url(../img/abottom_28.jpg) /*tpa=http://www.cj-designrs.com/images/images/abottom_28.jpg*/ repeat-x;
+    background: url(../img/abottom_28.jpg) repeat-x;
     float: left;
     margin-top: 3px;
 }
@@ -784,7 +784,7 @@ a:hover {
     width: 12px;
     height: 24px;
     overflow: hidden;
-    background: url(../img2/d.png) /*tpa=http://www.cj-designrs.com/images/images/d.png*/ no-repeat -62px -82px;
+    background: url(../img2/d.png) no-repeat -62px -82px;
     display: block;
     margin: 4px 5px 0 0;
     float: left;
@@ -801,7 +801,7 @@ a:hover {
 .abottombox_leftback a:hover i {
     width: 12px;
     height: 24px;
-    background: url(../img2/d.png) /*tpa=http://www.cj-designrs.com/images/images/d.png*/ no-repeat -74px -82px;
+    background: url(../img2/d.png) no-repeat -74px -82px;
     display: block;
 }
 
