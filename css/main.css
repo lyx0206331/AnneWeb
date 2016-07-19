@@ -2,7 +2,7 @@
 /* 公共样式 */
 body, button, input, select, textarea {
     font: 12px/1.8 "Microsoft Yahei", verdana;
-    background: #00ae99;
+    background: #07182a;
     font-size: 12px;
     line-height: 24px;
 }
@@ -521,15 +521,15 @@ a:hover {
     position: absolute;
     top: 0;
     left: 0;
-    margin: -250px 0 0 -237px;
+    margin: -100px 0 0 -337px;
     width: 885px;
     height: 278px;
     background-position: 0 0;
     opacity: 0;
-    -webkit-transform: scale(1.8, 1.8);
-    -moz-transform: scale(1.8, 1.8);
-    -ms-transform: scale(1.8, 1.8);
-    transform: scale(1.8, 1.8);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
     transition: all 1s;
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
@@ -540,15 +540,15 @@ a:hover {
     position: absolute;
     top: 0;
     left: 0;
-    margin: -250px 0 0 -237px;
+    margin: 250px 0 0 -137px;
     width: 885px;
     height: 278px;
-    background-position: 0 0;
+    background-position: 50px -350px;
     opacity: 0;
-    -webkit-transform: scale(1.8, 1.8);
-    -moz-transform: scale(1.8, 1.8);
-    -ms-transform: scale(1.8, 1.8);
-    transform: scale(1.8, 1.8);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
     transition: all 1s;
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
@@ -557,12 +557,12 @@ a:hover {
 
 .active .logo_l {
     top: 0;
-    margin: 0px 0 0 -237px;
+    margin: 0px 0 0 -147px;
     opacity: 1;
-    -webkit-transform: scale(1, 1);
-    -moz-transform: scale(1, 1);
-    -ms-transform: scale(1, 1);
-    transform: scale(1, 1);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
     transition-delay: 1s;
     -webkit-transition-delay: 1s;
     -moz-transition-delay: 1s;
@@ -571,16 +571,16 @@ a:hover {
 
 .active .logo_y {
     top: 0%;
-    margin: 0px 0px 0 -237px;
+    margin: 140px 0px 0 -207px;
     opacity: 1;
-    -webkit-transform: scale(1, 1);
-    -moz-transform: scale(1, 1);
-    -ms-transform: scale(1, 1);
-    transform: scale(1, 1);
-    transition-delay: 2.1s;
-    -webkit-transition-delay: 2.1s;
-    -moz-transition-delay: 2.1s;
-    -ms-transition-delay: 2.1s;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    transition-delay: 1s;
+    -webkit-transition-delay: 1s;
+    -moz-transition-delay: 1s;
+    -ms-transition-delay: 1s;
 }
 
 /* 两边标题 */
@@ -1317,7 +1317,7 @@ a:hover {
     position: absolute;
     top: 38px;
     left: 502px;
-    width: 256px;
+    width: 266px;
     opacity: 0;
     -webkit-transition: all 1.8s;
     -moz-transition: all 1.8s;
