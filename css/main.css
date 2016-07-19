@@ -270,7 +270,7 @@ a:hover {
 @media screen and (min-width: 1920px) {
     /*如果你的浏览器屏幕大于880px 就实现下面的样式*/
     .bg111 {
-        background-image: url(../img2/bottomtu_02.png);
+        background-image: url(../img2/bottomtu_02.jpg);
         background-repeat: no-repeat;
         background-position: center bottom;
         background-size: 100% 100%;
@@ -288,7 +288,7 @@ a:hover {
     }
 
     .active .bg111 {
-        background-image: url(../img2/bottomtu_02.png);
+        background-image: url(../img2/bottomtu_02.jpg);
         background-repeat: no-repeat;
         background-position: center bottom;
         background-size: 100% 100%;
@@ -308,7 +308,7 @@ a:hover {
 @media screen and (max-width: 1920px) {
     /*如果你的浏览器屏幕大于880px 就实现下面的样式*/
     .bg111 {
-        background-image: url(../img2/bottomtu_02.png);
+        background-image: url(../img2/bottomtu_02.jpg);
         background-repeat: no-repeat;
         background-position: center bottom;
         background-size: 1920px 100%;
@@ -326,7 +326,7 @@ a:hover {
     }
 
     .active .bg111 {
-        background-image: url(../img2/bottomtu_02.png);
+        background-image: url(../img2/bottomtu_02.jpg);
         background-repeat: no-repeat;
         background-position: center bottom;
         background-size: 1920px 100%;
