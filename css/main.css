@@ -343,11 +343,30 @@ a:hover {
     }
 }
 
+.tips {
+    width: 140px;
+    height: 20px;
+    background: #0000;
+    position: absolute;
+    margin: 185px 201px;
+    opacity: 0;
+    display: block;
+    font-size: 14px;
+    transition: 0.3s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+}
+
 .cj_title {
     width: 475px;
     height: 470px;
     margin: 0 auto;
     position: relative;
+}
+
+.cj_title:hover .tips {
+    color: #fff;
+    opacity: 1;
 }
 
 .logo_src {
